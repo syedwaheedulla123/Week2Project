@@ -1,7 +1,3 @@
-Here’s a simple and professional **README.md** file for your **Task Management Web API** project:
-
----
-
 # Task Management Web API
 
 A **Task Management Web API** built with **ASP.NET Core** that allows users to manage tasks, assign them to team members, set deadlines, and track their statuses.
@@ -34,28 +30,6 @@ A **Task Management Web API** built with **ASP.NET Core** that allows users to m
 | `GET`       | `/api/tasks/assignee/{assignee}` | Retrieve tasks assigned to a specific user    |
 | `GET`       | `/api/tasks/status/{status}` | Retrieve tasks filtered by their status       |
 
-## How to Run Locally
-
-### Prerequisites
-- Install [**.NET SDK**](https://dotnet.microsoft.com/download).
-- Install a code editor like [**Visual Studio**](https://visualstudio.microsoft.com/) or [**Visual Studio Code**](https://code.visualstudio.com/).
-
-### Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/Week2Project.git
-   cd Week2Project
-   ```
-2. Build the project:
-   ```bash
-   dotnet build
-   ```
-3. Run the project:
-   ```bash
-   dotnet run
-   ```
-4. Open the API documentation in your browser:
-   - Navigate to: `http://localhost:<port>/swagger`
 
 ## Sample Task JSON Payload
 
@@ -93,27 +67,5 @@ Week2Project
 └── README.md                   # Documentation
 ```
 
-## Contributing
 
-1. Fork the project.
-2. Create your feature branch:
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add YourFeature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature/YourFeature
-   ```
-5. Open a pull request.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to customize the **GitHub repository URL**, sample task payload, or any section to match your specific project. Let me know if you'd like help refining it further!
